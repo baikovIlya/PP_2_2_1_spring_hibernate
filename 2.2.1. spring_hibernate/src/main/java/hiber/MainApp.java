@@ -37,7 +37,7 @@ public class MainApp {
          System.out.println();
       }
 
-      User someUser = userService.getUserByCar("Audi A3", 2015);
+      User someUser = userService.getUserByCar("Kia Rio", 2020);
       System.out.println(someUser);
       context.close();
    }
